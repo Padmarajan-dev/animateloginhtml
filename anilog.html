@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Animated Login</title>
+</head>
+<body>
+<div class="box">
+<h3>LOGIN</h3>
+<input type="text" placeholder="username" required>
+<input type="password" placeholder="Password" required>
+<input type="button" value="Login">
+</div>
+</body>
+<style>
+*{
+margin:0;
+background:#716b72;
+}
+.box
+{
+height:18%;
+width:26%;
+padding-top:4%;
+padding-bottom:12%;
+background:#b487ee;
+top:50%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+text-align:center;
+box-shadow:10px 10px 15px;
+}
+.box h3
+{
+background:none;
+color:white;
+}
+.box input[type="text"],.box input[type="password"]
+{
+margin:20px auto;
+display:block;
+border:0;
+background:none;
+text-align:center;
+border:2px solid #31bb84;
+padding:8px 10px;
+outline:none;
+width:46%;
+border-radius:50px;
+color:white;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+width:66%;
+border:2px solid #3fe628;
+}
+.box input[type="button"]
+{
+margin:20px auto;
+display:block;
+border:0;
+background:none;
+text-align:center;
+border:2px solid #31bb84;
+padding:12px 6px;
+outline:none;
+width:36%;
+border-radius:50px;
+}
+.box input[type="button"]:hover
+{
+background:#31bb84;
+cursor:pointer;
+}
+</style>
+</html>
